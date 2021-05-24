@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>JSDemo</title>
+<script>
+var debounce = "false"
+
+document.addEventListener("keydown", function(event) {
+
+if (debounce == "false"){
+if (event.key === "w") {
+debounce = "true"
+console.log("hi")
+}
+}
+});
+
+document.addEventListener("keyup", function(event) {
+if (debounce == "true") {
+if (event.key === "w") {
+debounce = "false"
+console.log("bye")
+}
+}
+});
+
+
+</script>
+
+</head>
+<body>
+<h1>Attempt to work with JavaScript</h1>
+check logs
+<img id= "dot" src = "bluedot.png" style="position:absolute;" alt = "A blue dot"></img>
+
+</body>
+</html>
