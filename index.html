@@ -3,17 +3,16 @@
 <head>
 <style>
 @import url(stylespw.css);
+h1 {
+  text-align: center;
+}
 </style>
 <meta charset="utf-8">
 <title>Henry's Website</title>
 </head>
 <body>
 
-<div id="HEADER" style="border-bottom:2px solid LightGray;position:sticky;top:0;margin:-9px -10px;padding:10px 20px">
-
-<div style="border:3px solid Gray;padding:30px 30px;margin:30px 0px">
-
-<h1 style="text-align:center;">WELCOME USER. CLICK THE BUTTON BELOW TO ACCESS THE SITE</h1>
+<h1>WELCOME USER. CLICK THE BUTTON BELOW TO ACCESS THE SITE</h1>
 
 <a href="mainpage.html" id="BUTTON" style="margin:0px 645px;padding:10px 15px;">Home</a>
 
@@ -26,15 +25,12 @@
 </ol>
 
 <p style="text-align:center;">The current date is:</p>
-<p id="demo" style="text-align:center;"></p>
+<p id="date" style="text-align:center;"></p>
 
 <script>
 var d = new Date();
-document.getElementById("demo").innerHTML = d.toDateString();
+document.getElementById("date").innerHTML = d.toDateString();
 </script>
-
-<p id="FOOTER" style="margin:200px -100px;padding-bottom:1000px;padding-left:1000px;padding-right:1000px;text-align:center;border: 2px solid LightGray;">
-</p>
 
 <footer>
 <a href="http://validator.w3.org/check?uri=https://droidrazer.github.io/website/index.html">
