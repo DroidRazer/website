@@ -1,0 +1,90 @@
+#HEADER2 {
+font-family:sans-serif;
+
+color:Black;
+
+padding:20px 30px;
+
+margin:10px -20px;
+
+border:2px solid LightGray;
+
+font-size:30px;
+
+background-color:White;
+
+background:url(websitebackground.png) center;
+
+background-size:cover;
+
+background-repeat:no-repeat;
+
+background-size:200px 1000px;
+}
+
+body {
+background-image: url("../grass.png");
+background-repeat:no-repeat;
+background-position:center;
+font-family: sans-serif;
+}
+#HEADER {
+border-bottom:2px solid LightGray;
+background-color:Teal;
+position:sticky;
+top:0;
+}
+#p01 {
+color:black;
+font-size:18px;
+font-family:sans-serif;
+}
+#p02 {
+font-family:sans-serif;
+color:black;
+font-size:14px;
+}
+#p03 {
+font-family:sans-serif;
+font-size:14px;
+color:black;
+}
+#p04 {
+font-family:sans-serif;
+font-size:14px;
+color:black;
+border: 1px solid black;
+}
+#RED {
+background-color:white;
+font-family:sans-serif;
+color:white;
+}
+#ENDBUTTON {
+  border: 2px solid LightGray;
+  background-color: #c6ebd6;
+  border-radius:0px 15px 15px 0px;
+}
+#BUTTON {
+  border: 2px solid LightGray;
+  background-color: #c6ebd6;
+  text-decoration:none;
+  border-radius:15px;
+}
+a:link {
+  font-family: sans-serif;
+  color: black;
+  font-size: 14px
+}
+a:hover {
+  color: MediumSeaGreen;
+  box-shadow: 0px 5px 5px LightGray;
+}
+a:visited {
+  color: black;
+}
+
+#FOOTER {
+background-color:MediumAquaMarine;
+position:fixed;
+}
